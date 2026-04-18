@@ -40,6 +40,7 @@ title: medium (20–24pt)
 buttons: clearly readable
 
 ## Screen Layout
+
 -----------------------------------------
 |                                       |
 |            Hard Pass                  |
