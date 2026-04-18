@@ -1,125 +1,100 @@
-# Hard Pass — Design Direction (V1)
-
+Hard Pass — Design Direction (V1)
 ## Overall Feel
-
-The app should feel:
-
-- calm
-- simple
-- slightly witty
-- not loud or chaotic
-
-This is not a game or a flashy app.  
-It should feel like a quiet, confident tool.
-
-Inspiration:
-Think: minimal notes app + calm tone + slight humor
----
+calm
+simple
+slightly witty
+This is a quiet, confident tool—not a flashy app.
 
 ## Tone
+short
+clear
+confident
+slightly playful
 
-The UI should match the product tone:
-
-- short
-- clear
-- confident
-- slightly playful
-
-Avoid anything that feels:
-- childish
-- overly corporate
-- cluttered
-
----
+## Avoid:
+childish
+overly corporate
+cluttered
 
 ## Layout
+single screen
+centered content
+generous whitespace
+* The response text is the focus.
 
-- Single screen
-- Centered content
-- Plenty of whitespace
-- Large, readable text
-
-The focus should always be on the response text.
-
----
-
-## Color Direction
-
-Keep it minimal.
-
-### Background:
-- light neutral (white or very soft gray)
-
-### Primary text:
-- dark gray or near-black
-
-### Accent color (for button):
-- muted, modern tone
-
-Examples:
-- soft navy
-- muted purple
-- dusty blue
-- warm gray
-
-Avoid:
-- bright neon colors
-- overly saturated tones
-
----
+## Color Palette
+Background: #F7F9FB
+Text: #1A1A1A
+Primary Button: #2F3E46
+Button Text: #FFFFFF
+Border/Divider: #E5E7EB
+Keep it minimal. No bright or saturated colors.
 
 ## Typography
+clean sans-serif (system font is fine)
+no decorative fonts
 
-- clean sans-serif font
-- easy to read at a glance
+## Sizing:
+response text: large and prominent (28–34pt)
+title: medium (20–24pt)
+buttons: clearly readable
 
-Examples:
-- system default font is fine
-- no decorative fonts
+## Screen Layout
+-----------------------------------------
+|                                       |
+|            Hard Pass                  |
+|                                       |
+|   “I won’t be able to make that work” |
+|                                       |
+|          [ Give Me an Excuse ]        |
+|                                       |
+|        [ Copy ]    [ Share ]          |
+|                                       |
+-----------------------------------------
 
-### Text sizing:
-- response text should be large and prominent
-- buttons clearly readable
+## Components
+### Title
+text: “Hard Pass”
+top position (not too close to edge)
+medium weight
 
----
+### Response Text
+centered
+large, easy to read
+constrained width for clean wrapping
+* This is the core of the app.
 
-## Buttons
+### Primary Button
+label: “Give Me an Excuse”
+medium width, not full screen
+height: ~44–50px
+rounded corners
 
-Primary button:
-- label: "Give Me an Excuse"
-- should feel clear and easy to tap
-- not oversized, but prominent
+Action: generates a new response
 
-Secondary buttons:
-- "Copy"
-- "Share"
-- smaller, less prominent than main button
+### Secondary Actions
+Copy
+Share
+smaller and less prominent
+side-by-side
 
----
+## Spacing
+large gap: title → response
+medium gap: response → button
+small gap: button → actions
+* If it feels crowded, it’s wrong.
 
 ## Interaction
+tap button → new response
+optional: subtle fade transition
+no heavy animation
 
-When user taps the button:
-
-- slight delay (optional, <1 second)
-- simple transition:
-  - fade or subtle change
-- no complex animations
-
-Keep it smooth and minimal.
-
----
-
-## What to Avoid
-
-- cluttered layouts
-- too many colors
-- heavy animations
-- multiple screens
-- anything that distracts from the main action
-
----
+## Optional (V1+)
+Simple category toggle:
+Polite | Funny | Firm
 
 ## Guiding Principle
+If it adds complexity without improving clarity, remove it.
 
-If something adds complexity without improving clarity, remove it.
+## One-Line Build Summary
+Centered layout, large readable response text, one primary button, two small action buttons, minimal styling.
