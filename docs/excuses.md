@@ -37,3 +37,23 @@
 - I would, but future me said no.
 - I can’t—I’ve already mentally clocked out.
 - I would, but I’m currently prioritizing snacks and silence.
+
+---
+
+## Firm
+
+- I’m not able to take this on.
+- That’s not something I can commit to.
+- I’m going to say no to this.
+- I don’t have availability for that.
+- I won’t be moving forward with this.
+- That doesn’t work for me.
+- I’m not the right person for this.
+- I’m not able to prioritize that right now.
+- I’m going to decline.
+- I can’t take on anything additional.
+- That’s outside of what I can do right now.
+- I’m not available for that.
+- I need to keep my current commitments as they are.
+- I’m going to pass on this.
+- I won’t be able to participate.
