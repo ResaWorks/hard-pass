@@ -41,6 +41,7 @@ buttons: clearly readable
 
 ## Screen Layout
 
+```plaintext
 -----------------------------------------
 |                                       |
 |            Hard Pass                  |
@@ -52,6 +53,7 @@ buttons: clearly readable
 |        [ Copy ]    [ Share ]          |
 |                                       |
 -----------------------------------------
+```
 
 ## Components
 ### Title
